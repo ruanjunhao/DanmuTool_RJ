@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B67AA2C1ED96A0100D5E2C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B67AA2B1ED96A0100D5E2C3 /* main.m */; };
+		8B67AA2F1ED96A0100D5E2C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B67AA2E1ED96A0100D5E2C3 /* AppDelegate.m */; };
+		8B67AA321ED96A0100D5E2C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B67AA311ED96A0100D5E2C3 /* ViewController.m */; };
+		8B67AA351ED96A0100D5E2C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B67AA331ED96A0100D5E2C3 /* Main.storyboard */; };
+		8B67AA371ED96A0100D5E2C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B67AA361ED96A0100D5E2C3 /* Assets.xcassets */; };
+		8B67AA3A1ED96A0100D5E2C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B67AA381ED96A0100D5E2C3 /* LaunchScreen.storyboard */; };
+		8B67AA451ED96A0100D5E2C3 /* DanmuTool_RJTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B67AA441ED96A0100D5E2C3 /* DanmuTool_RJTests.m */; };
+		8B67AA501ED96A0100D5E2C3 /* DanmuTool_RJUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B67AA4F1ED96A0100D5E2C3 /* DanmuTool_RJUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B67AA411ED96A0100D5E2C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B67AA1F1ED96A0100D5E2C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B67AA261ED96A0100D5E2C3;
+			remoteInfo = DanmuTool_RJ;
+		};
+		8B67AA4C1ED96A0100D5E2C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B67AA1F1ED96A0100D5E2C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B67AA261ED96A0100D5E2C3;
+			remoteInfo = DanmuTool_RJ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B67AA271ED96A0100D5E2C3 /* DanmuTool_RJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanmuTool_RJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B67AA2B1ED96A0100D5E2C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B67AA2D1ED96A0100D5E2C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8B67AA2E1ED96A0100D5E2C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8B67AA301ED96A0100D5E2C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8B67AA311ED96A0100D5E2C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8B67AA341ED96A0100D5E2C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B67AA361ED96A0100D5E2C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B67AA391ED96A0100D5E2C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B67AA3B1ED96A0100D5E2C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B67AA401ED96A0100D5E2C3 /* DanmuTool_RJTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanmuTool_RJTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B67AA441ED96A0100D5E2C3 /* DanmuTool_RJTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DanmuTool_RJTests.m; sourceTree = "<group>"; };
+		8B67AA461ED96A0100D5E2C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B67AA4B1ED96A0100D5E2C3 /* DanmuTool_RJUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanmuTool_RJUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B67AA4F1ED96A0100D5E2C3 /* DanmuTool_RJUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DanmuTool_RJUITests.m; sourceTree = "<group>"; };
+		8B67AA511ED96A0100D5E2C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B67AA241ED96A0100D5E2C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B67AA3D1ED96A0100D5E2C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B67AA481ED96A0100D5E2C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B67AA1E1ED96A0100D5E2C3 = {
+			isa = PBXGroup;
+			children = (
+				8B67AA291ED96A0100D5E2C3 /* DanmuTool_RJ */,
+				8B67AA431ED96A0100D5E2C3 /* DanmuTool_RJTests */,
+				8B67AA4E1ED96A0100D5E2C3 /* DanmuTool_RJUITests */,
+				8B67AA281ED96A0100D5E2C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B67AA281ED96A0100D5E2C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B67AA271ED96A0100D5E2C3 /* DanmuTool_RJ.app */,
+				8B67AA401ED96A0100D5E2C3 /* DanmuTool_RJTests.xctest */,
+				8B67AA4B1ED96A0100D5E2C3 /* DanmuTool_RJUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B67AA291ED96A0100D5E2C3 /* DanmuTool_RJ */ = {
+			isa = PBXGroup;
+			children = (
+				8B67AA2D1ED96A0100D5E2C3 /* AppDelegate.h */,
+				8B67AA2E1ED96A0100D5E2C3 /* AppDelegate.m */,
+				8B67AA301ED96A0100D5E2C3 /* ViewController.h */,
+				8B67AA311ED96A0100D5E2C3 /* ViewController.m */,
+				8B67AA331ED96A0100D5E2C3 /* Main.storyboard */,
+				8B67AA361ED96A0100D5E2C3 /* Assets.xcassets */,
+				8B67AA381ED96A0100D5E2C3 /* LaunchScreen.storyboard */,
+				8B67AA3B1ED96A0100D5E2C3 /* Info.plist */,
+				8B67AA2A1ED96A0100D5E2C3 /* Supporting Files */,
+			);
+			path = DanmuTool_RJ;
+			sourceTree = "<group>";
+		};
+		8B67AA2A1ED96A0100D5E2C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B67AA2B1ED96A0100D5E2C3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B67AA431ED96A0100D5E2C3 /* DanmuTool_RJTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B67AA441ED96A0100D5E2C3 /* DanmuTool_RJTests.m */,
+				8B67AA461ED96A0100D5E2C3 /* Info.plist */,
+			);
+			path = DanmuTool_RJTests;
+			sourceTree = "<group>";
+		};
+		8B67AA4E1ED96A0100D5E2C3 /* DanmuTool_RJUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B67AA4F1ED96A0100D5E2C3 /* DanmuTool_RJUITests.m */,
+				8B67AA511ED96A0100D5E2C3 /* Info.plist */,
+			);
+			path = DanmuTool_RJUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B67AA261ED96A0100D5E2C3 /* DanmuTool_RJ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B67AA541ED96A0100D5E2C3 /* Build configuration list for PBXNativeTarget "DanmuTool_RJ" */;
+			buildPhases = (
+				8B67AA231ED96A0100D5E2C3 /* Sources */,
+				8B67AA241ED96A0100D5E2C3 /* Frameworks */,
+				8B67AA251ED96A0100D5E2C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DanmuTool_RJ;
+			productName = DanmuTool_RJ;
+			productReference = 8B67AA271ED96A0100D5E2C3 /* DanmuTool_RJ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B67AA3F1ED96A0100D5E2C3 /* DanmuTool_RJTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B67AA571ED96A0100D5E2C3 /* Build configuration list for PBXNativeTarget "DanmuTool_RJTests" */;
+			buildPhases = (
+				8B67AA3C1ED96A0100D5E2C3 /* Sources */,
+				8B67AA3D1ED96A0100D5E2C3 /* Frameworks */,
+				8B67AA3E1ED96A0100D5E2C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B67AA421ED96A0100D5E2C3 /* PBXTargetDependency */,
+			);
+			name = DanmuTool_RJTests;
+			productName = DanmuTool_RJTests;
+			productReference = 8B67AA401ED96A0100D5E2C3 /* DanmuTool_RJTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B67AA4A1ED96A0100D5E2C3 /* DanmuTool_RJUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B67AA5A1ED96A0100D5E2C3 /* Build configuration list for PBXNativeTarget "DanmuTool_RJUITests" */;
+			buildPhases = (
+				8B67AA471ED96A0100D5E2C3 /* Sources */,
+				8B67AA481ED96A0100D5E2C3 /* Frameworks */,
+				8B67AA491ED96A0100D5E2C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B67AA4D1ED96A0100D5E2C3 /* PBXTargetDependency */,
+			);
+			name = DanmuTool_RJUITests;
+			productName = DanmuTool_RJUITests;
+			productReference = 8B67AA4B1ED96A0100D5E2C3 /* DanmuTool_RJUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B67AA1F1ED96A0100D5E2C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = app;
+				TargetAttributes = {
+					8B67AA261ED96A0100D5E2C3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					8B67AA3F1ED96A0100D5E2C3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8B67AA261ED96A0100D5E2C3;
+					};
+					8B67AA4A1ED96A0100D5E2C3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8B67AA261ED96A0100D5E2C3;
+					};
+				};
+			};
+			buildConfigurationList = 8B67AA221ED96A0100D5E2C3 /* Build configuration list for PBXProject "DanmuTool_RJ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B67AA1E1ED96A0100D5E2C3;
+			productRefGroup = 8B67AA281ED96A0100D5E2C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B67AA261ED96A0100D5E2C3 /* DanmuTool_RJ */,
+				8B67AA3F1ED96A0100D5E2C3 /* DanmuTool_RJTests */,
+				8B67AA4A1ED96A0100D5E2C3 /* DanmuTool_RJUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B67AA251ED96A0100D5E2C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B67AA3A1ED96A0100D5E2C3 /* LaunchScreen.storyboard in Resources */,
+				8B67AA371ED96A0100D5E2C3 /* Assets.xcassets in Resources */,
+				8B67AA351ED96A0100D5E2C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B67AA3E1ED96A0100D5E2C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B67AA491ED96A0100D5E2C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B67AA231ED96A0100D5E2C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B67AA321ED96A0100D5E2C3 /* ViewController.m in Sources */,
+				8B67AA2F1ED96A0100D5E2C3 /* AppDelegate.m in Sources */,
+				8B67AA2C1ED96A0100D5E2C3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B67AA3C1ED96A0100D5E2C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B67AA451ED96A0100D5E2C3 /* DanmuTool_RJTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B67AA471ED96A0100D5E2C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B67AA501ED96A0100D5E2C3 /* DanmuTool_RJUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B67AA421ED96A0100D5E2C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B67AA261ED96A0100D5E2C3 /* DanmuTool_RJ */;
+			targetProxy = 8B67AA411ED96A0100D5E2C3 /* PBXContainerItemProxy */;
+		};
+		8B67AA4D1ED96A0100D5E2C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B67AA261ED96A0100D5E2C3 /* DanmuTool_RJ */;
+			targetProxy = 8B67AA4C1ED96A0100D5E2C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B67AA331ED96A0100D5E2C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B67AA341ED96A0100D5E2C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B67AA381ED96A0100D5E2C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B67AA391ED96A0100D5E2C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B67AA521ED96A0100D5E2C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8B67AA531ED96A0100D5E2C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B67AA551ED96A0100D5E2C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DanmuTool_RJ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.zuihuibao.cn.DanmuTool-RJ";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B67AA561ED96A0100D5E2C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DanmuTool_RJ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.zuihuibao.cn.DanmuTool-RJ";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8B67AA581ED96A0100D5E2C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DanmuTool_RJTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.zuihuibao.cn.DanmuTool-RJTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DanmuTool_RJ.app/DanmuTool_RJ";
+			};
+			name = Debug;
+		};
+		8B67AA591ED96A0100D5E2C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DanmuTool_RJTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.zuihuibao.cn.DanmuTool-RJTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DanmuTool_RJ.app/DanmuTool_RJ";
+			};
+			name = Release;
+		};
+		8B67AA5B1ED96A0100D5E2C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DanmuTool_RJUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.zuihuibao.cn.DanmuTool-RJUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DanmuTool_RJ;
+			};
+			name = Debug;
+		};
+		8B67AA5C1ED96A0100D5E2C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DanmuTool_RJUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.zuihuibao.cn.DanmuTool-RJUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DanmuTool_RJ;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B67AA221ED96A0100D5E2C3 /* Build configuration list for PBXProject "DanmuTool_RJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B67AA521ED96A0100D5E2C3 /* Debug */,
+				8B67AA531ED96A0100D5E2C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B67AA541ED96A0100D5E2C3 /* Build configuration list for PBXNativeTarget "DanmuTool_RJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B67AA551ED96A0100D5E2C3 /* Debug */,
+				8B67AA561ED96A0100D5E2C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B67AA571ED96A0100D5E2C3 /* Build configuration list for PBXNativeTarget "DanmuTool_RJTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B67AA581ED96A0100D5E2C3 /* Debug */,
+				8B67AA591ED96A0100D5E2C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B67AA5A1ED96A0100D5E2C3 /* Build configuration list for PBXNativeTarget "DanmuTool_RJUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B67AA5B1ED96A0100D5E2C3 /* Debug */,
+				8B67AA5C1ED96A0100D5E2C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B67AA1F1ED96A0100D5E2C3 /* Project object */;
+}
