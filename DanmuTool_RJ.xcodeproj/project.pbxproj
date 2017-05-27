@@ -15,6 +15,13 @@
 		8B67AA3A1ED96A0100D5E2C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B67AA381ED96A0100D5E2C3 /* LaunchScreen.storyboard */; };
 		8B67AA451ED96A0100D5E2C3 /* DanmuTool_RJTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B67AA441ED96A0100D5E2C3 /* DanmuTool_RJTests.m */; };
 		8B67AA501ED96A0100D5E2C3 /* DanmuTool_RJUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B67AA4F1ED96A0100D5E2C3 /* DanmuTool_RJUITests.m */; };
+		8B67AA6F1ED96CA800D5E2C3 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 8B67AA671ED96CA800D5E2C3 /* .gitkeep */; };
+		8B67AA701ED96CA800D5E2C3 /* CALayer+Aimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B67AA691ED96CA800D5E2C3 /* CALayer+Aimate.m */; };
+		8B67AA711ED96CA800D5E2C3 /* SKFDanmuBackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B67AA6B1ED96CA800D5E2C3 /* SKFDanmuBackView.m */; };
+		8B67AA721ED96CA800D5E2C3 /* SKFDanmuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B67AA6D1ED96CA800D5E2C3 /* SKFDanmuModel.m */; };
+		8B67AA761ED96CB700D5E2C3 /* SKFDanmuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B67AA741ED96CB700D5E2C3 /* SKFDanmuView.m */; };
+		8B67AA771ED96CB700D5E2C3 /* SKFDanmuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B67AA751ED96CB700D5E2C3 /* SKFDanmuView.xib */; };
+		8B67AA7A1ED96CFC00D5E2C3 /* DMHeartFlyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B67AA791ED96CFC00D5E2C3 /* DMHeartFlyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,19 @@
 		8B67AA4B1ED96A0100D5E2C3 /* DanmuTool_RJUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanmuTool_RJUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B67AA4F1ED96A0100D5E2C3 /* DanmuTool_RJUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DanmuTool_RJUITests.m; sourceTree = "<group>"; };
 		8B67AA511ED96A0100D5E2C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B67AA671ED96CA800D5E2C3 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		8B67AA681ED96CA800D5E2C3 /* CALayer+Aimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Aimate.h"; sourceTree = "<group>"; };
+		8B67AA691ED96CA800D5E2C3 /* CALayer+Aimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Aimate.m"; sourceTree = "<group>"; };
+		8B67AA6A1ED96CA800D5E2C3 /* SKFDanmuBackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKFDanmuBackView.h; sourceTree = "<group>"; };
+		8B67AA6B1ED96CA800D5E2C3 /* SKFDanmuBackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKFDanmuBackView.m; sourceTree = "<group>"; };
+		8B67AA6C1ED96CA800D5E2C3 /* SKFDanmuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKFDanmuModel.h; sourceTree = "<group>"; };
+		8B67AA6D1ED96CA800D5E2C3 /* SKFDanmuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKFDanmuModel.m; sourceTree = "<group>"; };
+		8B67AA6E1ED96CA800D5E2C3 /* SKFDanmuModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKFDanmuModelProtocol.h; sourceTree = "<group>"; };
+		8B67AA731ED96CB700D5E2C3 /* SKFDanmuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKFDanmuView.h; sourceTree = "<group>"; };
+		8B67AA741ED96CB700D5E2C3 /* SKFDanmuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKFDanmuView.m; sourceTree = "<group>"; };
+		8B67AA751ED96CB700D5E2C3 /* SKFDanmuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SKFDanmuView.xib; sourceTree = "<group>"; };
+		8B67AA781ED96CFC00D5E2C3 /* DMHeartFlyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMHeartFlyView.h; sourceTree = "<group>"; };
+		8B67AA791ED96CFC00D5E2C3 /* DMHeartFlyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMHeartFlyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +121,12 @@
 		8B67AA291ED96A0100D5E2C3 /* DanmuTool_RJ */ = {
 			isa = PBXGroup;
 			children = (
+				8B67AA651ED96CA800D5E2C3 /* DanmuView */,
+				8B67AA731ED96CB700D5E2C3 /* SKFDanmuView.h */,
+				8B67AA741ED96CB700D5E2C3 /* SKFDanmuView.m */,
+				8B67AA751ED96CB700D5E2C3 /* SKFDanmuView.xib */,
+				8B67AA781ED96CFC00D5E2C3 /* DMHeartFlyView.h */,
+				8B67AA791ED96CFC00D5E2C3 /* DMHeartFlyView.m */,
 				8B67AA2D1ED96A0100D5E2C3 /* AppDelegate.h */,
 				8B67AA2E1ED96A0100D5E2C3 /* AppDelegate.m */,
 				8B67AA301ED96A0100D5E2C3 /* ViewController.h */,
@@ -138,6 +164,29 @@
 				8B67AA511ED96A0100D5E2C3 /* Info.plist */,
 			);
 			path = DanmuTool_RJUITests;
+			sourceTree = "<group>";
+		};
+		8B67AA651ED96CA800D5E2C3 /* DanmuView */ = {
+			isa = PBXGroup;
+			children = (
+				8B67AA661ED96CA800D5E2C3 /* Classes */,
+			);
+			path = DanmuView;
+			sourceTree = "<group>";
+		};
+		8B67AA661ED96CA800D5E2C3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8B67AA671ED96CA800D5E2C3 /* .gitkeep */,
+				8B67AA681ED96CA800D5E2C3 /* CALayer+Aimate.h */,
+				8B67AA691ED96CA800D5E2C3 /* CALayer+Aimate.m */,
+				8B67AA6A1ED96CA800D5E2C3 /* SKFDanmuBackView.h */,
+				8B67AA6B1ED96CA800D5E2C3 /* SKFDanmuBackView.m */,
+				8B67AA6C1ED96CA800D5E2C3 /* SKFDanmuModel.h */,
+				8B67AA6D1ED96CA800D5E2C3 /* SKFDanmuModel.m */,
+				8B67AA6E1ED96CA800D5E2C3 /* SKFDanmuModelProtocol.h */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +298,8 @@
 				8B67AA3A1ED96A0100D5E2C3 /* LaunchScreen.storyboard in Resources */,
 				8B67AA371ED96A0100D5E2C3 /* Assets.xcassets in Resources */,
 				8B67AA351ED96A0100D5E2C3 /* Main.storyboard in Resources */,
+				8B67AA6F1ED96CA800D5E2C3 /* .gitkeep in Resources */,
+				8B67AA771ED96CB700D5E2C3 /* SKFDanmuView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +324,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B67AA721ED96CA800D5E2C3 /* SKFDanmuModel.m in Sources */,
+				8B67AA701ED96CA800D5E2C3 /* CALayer+Aimate.m in Sources */,
 				8B67AA321ED96A0100D5E2C3 /* ViewController.m in Sources */,
+				8B67AA711ED96CA800D5E2C3 /* SKFDanmuBackView.m in Sources */,
+				8B67AA761ED96CB700D5E2C3 /* SKFDanmuView.m in Sources */,
 				8B67AA2F1ED96A0100D5E2C3 /* AppDelegate.m in Sources */,
+				8B67AA7A1ED96CFC00D5E2C3 /* DMHeartFlyView.m in Sources */,
 				8B67AA2C1ED96A0100D5E2C3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
